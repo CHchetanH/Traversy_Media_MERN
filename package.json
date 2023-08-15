@@ -1,0 +1,23 @@
+{
+	"name": "traversy_media_mern",
+	"version": "1.0.0",
+	"description": "Goal Setter for MERN",
+	"main": "server.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon backend/server.js",
+		"start": "node backend/server.js"
+	},
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"colors": "^1.4.0",
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2",
+		"mongoose": "^7.4.3"
+	},
+	"devDependencies": {
+		"nodemon": "^3.0.1"
+	}
+}
